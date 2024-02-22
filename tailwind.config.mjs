@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+// FONTS
+import "@fontsource/inter";
+
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
@@ -28,7 +32,10 @@ export default {
       5: "32px",
       6: "48px",
     },
-    fontFamily: {},
+    fontFamily: {
+      inter: "Inter",
+    },
+    fontSize: {},
   },
   plugins: [],
 };
